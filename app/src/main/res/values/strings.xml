@@ -7,4 +7,5 @@
     <string name="east">EAST</string>
     <string name="south">South</string>
     <string name="central">Central</string>
+    <string name="ne">NE</string>
 </resources>

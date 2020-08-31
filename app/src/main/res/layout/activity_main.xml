@@ -65,6 +65,37 @@
             android:text="@string/south"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"/>
-
+        <Button
+            android:id="@+id/btnNE"
+            android:text="@string/ne"
+            android:layout_margin="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnEast"
+            android:layout_toRightOf="@id/btnNorth"/>
+        <Button
+            android:id="@+id/btnSE"
+            android:text="SE"
+            android:layout_margin="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnEast"
+            android:layout_toRightOf="@id/btnsouth"/>
+        <Button
+            android:id="@+id/btnSW"
+            android:text="SW"
+            android:layout_margin="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnWest"
+            android:layout_toLeftOf="@id/btnsouth"/>
+        <Button
+            android:id="@+id/btnNw"
+            android:text="NE"
+            android:layout_margin="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnEast"
+            android:layout_toLeftOf="@+id/btnNorth"/>
     </RelativeLayout>
 </LinearLayout>

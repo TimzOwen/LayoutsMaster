@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LayoutsMaster</string>
+    <string name="small_btn">Small btn</string>
+    <string name="big_button">Big button</string>
+    <string name="west">West</string>
+    <string name="north">North</string>
+    <string name="east">EAST</string>
+    <string name="south">South</string>
+    <string name="central">Central</string>
 </resources>
